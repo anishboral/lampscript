@@ -4,7 +4,6 @@ apt-get install php -y
 apt install php libapache2-mod-php -y
 apt install php-mbstring -y
 apt install php-gd -y
-apt install php-gd -y
 apt install php-curl -y
 apt-get install php-mysql -y
 a2enmod rewrite
