@@ -5,7 +5,7 @@ mysqli_select_db($db_con, "drupal7");
 $field_collection_machine_name_array = array('field_app_statistics', 'field_print_incetives', 'field_print_special_position');
 
 
-$field_collection_fields = array('field_label', 'field_description');
+$field_collection_fields = array('field_label', 'field_description', 'field_title', 'field_value','field_phone_image','field_number');
 
 ################################
 
