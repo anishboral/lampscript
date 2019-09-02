@@ -12,7 +12,7 @@ $field_collection_fields = array('field_label', 'field_description');
 $keep_format_col = array('field_description');
 
 
-foreach($field_collection_machine_name_array as $field_collection_machine_name => $field_collection_fields) {
+foreach($field_collection_machine_name_array as $field_collection_machine_name) {
 
 $source_table = 'field_data_' . $field_collection_machine_name;
 $destination_table = 'node__' . $field_collection_machine_name;
